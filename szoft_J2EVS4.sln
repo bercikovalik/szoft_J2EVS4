@@ -5,6 +5,8 @@ VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "szoft_J2EVS4", "szoft_J2EVS4\szoft_J2EVS4.csproj", "{3283E925-37DD-4394-9DFC-41C4C44A72A1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "szorzotabla", "szorzotabla\szorzotabla.csproj", "{B1E0E48C-D739-4398-83FB-322C2D039BC6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{3283E925-37DD-4394-9DFC-41C4C44A72A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3283E925-37DD-4394-9DFC-41C4C44A72A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3283E925-37DD-4394-9DFC-41C4C44A72A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1E0E48C-D739-4398-83FB-322C2D039BC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1E0E48C-D739-4398-83FB-322C2D039BC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1E0E48C-D739-4398-83FB-322C2D039BC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1E0E48C-D739-4398-83FB-322C2D039BC6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
