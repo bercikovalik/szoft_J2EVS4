@@ -96,4 +96,4 @@ Eddig: `46p`
 
 Részösszeg: `2p`
 
-## Összessen: 48p`
+## Összessen: `48p`
