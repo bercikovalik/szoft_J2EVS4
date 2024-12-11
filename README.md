@@ -1,10 +1,10 @@
-# Pontozólap minta
+# Pontozólap 
 Név: Kovalik-Deák Bercel    
 
 Neptun: J2EVS4
 
 ## Projekt rövid leírása:
-Egy egyszerű webapplikáció rendezvények nyilvántartására, Weboldalla és windows forms-al.
+Egy egyszerű webapplikáció rendezvények nyilvántartására, Weboldallal és windows forms app-al.
 
 
 ## Hozott anyagok:
