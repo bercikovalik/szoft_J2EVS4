@@ -28,16 +28,17 @@ Részösszeg: `7p`
 - `1p` A weboldal dinamikus tartalommal tölthető fel adatbázison keresztül
 - `1p` A weboldal használ legalább 20 sor értelmes css-t
 - `1p` A weboldal javascriptje más funkciót is ellát, mint az adatok betöltése (Törlés)
+- `1p` A weboldal javascriptet használ API végpont által szolgáltatott adatok betöltésére, hozott anyagként
 
-Részösszeg: `4p`
-Eddig: `11p`
+Részösszeg: `5p`
+Eddig: `12p`
 
 ### Egyéb, extra
 
 - `2x1p`  `Scaffold-DbContext` használata
 
 Részösszeg: `2p`
-Eddig: `13p`
+Eddig: `14p`
 
 
 ### ASP .NET 
@@ -45,7 +46,7 @@ Eddig: `13p`
 - `2p`  `program.cs` beállítása `wwwroot` mappában tárolt statikus tartalmak megosztására
 
 Részösszeg: `2p`
-Eddig: `15p`
+Eddig: `16p`
 
 ##### API végpontok
 
@@ -60,7 +61,7 @@ Eddig: `15p`
 Ha le szeretnék tesztelni az api metódusokat, használják a feltöltött SWAGGER_INPUT.txt file-ból a megfelelő inputot. Mivel bonyolult a kulcsok helyzete miatt a szerkezet, egyszerűbb az előre összeállított tesztet használni.
 
 Részösszeg: `21p`
-Eddig: `36p`
+Eddig: `37p`
 
 ##### Javascript
 
@@ -73,7 +74,7 @@ Eddig: `36p`
 - `1x2p` Anchorok alkalmazása: az alkalmazás egészében meg van oldva, hogy az ablak átméretezésekor ki legyen használva a rendelkezésre álló terület.
 
 Részösszeg: `4p`
-Eddig: `40p`
+Eddig: `41p`
 
 ### Tábla adatainak megjelenítése ListBox-ban.
 
@@ -83,17 +84,17 @@ Eddig: `40p`
 - `1x2p` Ha az adatok tetszőleges módszerrel, pl. TextBox-on keresztül szűrhetőek.
 
 Részösszeg: `4p`
-Eddig: `44p`
+Eddig: `45p`
  
 ### Tábla adatainak megjelenítése DataGridView-ban
 - `1x2p` Adatok megjelenítése
 
 Részösszeg: `2p`
-Eddig: `46p`
+Eddig: `47p`
  
 ### Adatkötés BindingSource -on keresztül
 - `1x2p` Működő BindingSource
 
 Részösszeg: `2p`
 
-## Összessen: `48p`
+## Összessen: `49p`
