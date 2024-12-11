@@ -1,0 +1,93 @@
+ADD_ATTENDEE
+{
+  "fullName": "John Doe",
+  "email": "john.doe@example0000.com",
+  "phone": "123-456-7890",
+  "attendee": {
+    "fullName": "John Doe",
+    "email": "john.doe@example0000.com",
+    "phone": "123-456-7890"
+  },
+  "tickets": [
+    {
+      "purchaseDate": "2024-12-10T15:30:00Z",
+      "attendee": {
+        "fullName": "John Doe",
+        "email": "john.doe@example0000.com",
+        "phone": "123-456-7890"
+      },
+      "event": {
+        "eventName": "Tech Conference 2024",
+        "eventDate": "2024-12-15T09:00:00Z",
+        "location": "Conference Center, New York",
+        "maxAttendees": 500,
+        "tickets": []
+      }
+    }
+  ]
+}
+
+ATTENDEE_ UPDATE
+
+{
+  "attendeeId": 20,
+  "fullName": "Kovalik",
+  "email": "john.doe@example213.com",
+  "phone": "123-456-7890",
+  "attendee": {
+    "attendeeId": 20,
+    "fullName": "Kovalik",
+    "email": "john.doe@example213.com",
+    "phone": "123-456-7890"
+  },
+  "tickets": [
+    {
+      "purchaseDate": "2024-12-10T15:30:00Z",
+      "attendee": {
+        "attendeeId": 20,
+        "fullName": "Kovalik",
+        "email": "john.doe@example213.com",
+        "phone": "123-456-7890"
+      },
+      "event": {
+        "eventName": "Tech Conference 2024",
+        "eventDate": "2024-12-15T09:00:00Z",
+        "location": "Conference Center, New York",
+        "maxAttendees": 500,
+        "tickets": []
+      }
+    }
+  ]
+}
+
+EVENT_UPDATE
+
+{
+  "eventId": 1,
+  "eventName": "Software Engineering Conference 2024",
+  "eventDate": "2024-12-15T10:00:00.000Z",
+  "location": "Downtown Conference Center, Hall A",
+  "maxAttendees": 500,
+  "tickets": [
+    {
+      "ticketId": 101,
+      "eventId": 1,
+      "attendeeId": 2001,
+      "purchaseDate": "2024-12-01T14:00:00.000Z",
+      "attendee": {
+        "attendeeId": 2001,
+        "fullName": "John Doe",
+        "email": "johndoe@example.com",
+        "phone": "+1234567890",
+        "tickets": []
+      },
+      "event": {
+        "eventId": 1,
+        "eventName": "Software Engineering Conference 2024",
+        "eventDate": "2024-12-15T10:00:00.000Z",
+        "location": "Downtown Conference Center, Hall A",
+        "maxAttendees": 500
+      }
+    }
+  ]
+}
