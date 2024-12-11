@@ -11,7 +11,7 @@ Egy egyszerű webapplikáció rendezvények nyilvántartására, Weboldalla és 
 
 ##### Saját Adatbázis
 
-![azure](./pontlapImages/azure.png)
+![azure](./azure.png)
 - `3x1p` Az alkalmazásban használt táblánként pont (Events, Attendees, Tickets)
 - `1p` Az adatbázis tartalmaz Constraint-eket (min 2)
 - `2p` Az adatbázis saját Azure SQL szerveren van
@@ -22,7 +22,7 @@ Részösszeg: `7p`
 
 ##### Weboldal
 
-![weboldal](./pontlapImages/weboldal.gif)
+![weboldal](./webolda.png)
 
 - `1p` A weboldalnak van egy értelmezhető struktúrája
 - `1p` A weboldal dinamikus tartalommal tölthető fel adatbázison keresztül
@@ -36,8 +36,8 @@ Eddig: `11p`
 
 - `2x1p`  `Scaffold-DbContext` használata
 
-Részösszeg: `3p`
-Eddig: `14p`
+Részösszeg: `2p`
+Eddig: `13p`
 
 
 ### ASP .NET 
@@ -45,39 +45,55 @@ Eddig: `14p`
 - `2p`  `program.cs` beállítása `wwwroot` mappában tárolt statikus tartalmak megosztására
 
 Részösszeg: `2p`
-Eddig: `20p`
+Eddig: `15p`
 
 ##### API végpontok
 
-![swagger](./pontlapImages/swagger.png)
+![swagger](./swagger.PNG)
 
-- `3p` Teljes SQL tábla adatainak szolgáltatása API végponton keresztül (openings)
-- `2x2p` SQL tábla egy választható rekordjának szolgáltatása API végponton keresztül (getElo,getOpeningVariation)
-- `3p` SQL tábla egy választható rekordjának törlése (deleteUser)
-- `5p` Új rekord felvétele `HttpPost` metóduson keresztül SQL táblába (createUser)
-- `2x3p` Rekord módosítása `HttpPost` metóduson keresztül SQL táblában (updateElo,changeUsername)
+- `3p` Teljes SQL tábla adatainak szolgáltatása API végponton keresztül (events)
+- `2x2p` SQL tábla egy választható rekordjának szolgáltatása API végponton keresztül (events/event/{id},events/tickets/{id})
+- `3p` SQL tábla egy választható rekordjának törlése (events/{eventId})
+- `5p` Új rekord felvétele `HttpPost` metóduson keresztül SQL táblába (events/attendee/add)
+- `2x3p` Rekord módosítása `HttpPost` metóduson keresztül SQL táblában (events/attendee/update, events/event/update)
 
+Ha le szeretnék tesztelni az api metódusokat, használják a feltöltött SWAGGER_INPUT.txt file-ból a megfelelő inputot. Mivel bonyolult a kulcsok helyzete miatt a szerkezet, egyszerűbb az előre összeállított tesztet használni.
 
-Részösszeg: `31p`
-Eddig: `51p`
+Részösszeg: `21p`
+Eddig: `36p`
 
 ##### Javascript
 
 ## Windows Forms App
 
+![exit](./kilepes.PNG)
+
 - `1x2p` Az alkalmazásból a kilépés csak megerősítő kérdés után lehetséges.
  
 - `1x2p` Anchorok alkalmazása: az alkalmazás egészében meg van oldva, hogy az ablak átméretezésekor ki legyen használva a rendelkezésre álló terület.
 
+Részösszeg: `4p`
+Eddig: `40p`
+
 ### Tábla adatainak megjelenítése ListBox-ban.
 
+![szures](./szures.PNG)
+
 - `1x2p` Adatok megjelenítése
-- `2x2p` Ha az adatok tetszőleges módszerrel, pl. TextBox-on keresztül szűrhetőek.
+- `1x2p` Ha az adatok tetszőleges módszerrel, pl. TextBox-on keresztül szűrhetőek.
+
+Részösszeg: `4p`
+Eddig: `44p`
  
 ### Tábla adatainak megjelenítése DataGridView-ban
 - `1x2p` Adatok megjelenítése
+
+Részösszeg: `2p`
+Eddig: `46p`
  
 ### Adatkötés BindingSource -on keresztül
 - `1x2p` Működő BindingSource
 
-## Összessen: `61p`
+Részösszeg: `2p`
+
+## Összessen: 48p`
